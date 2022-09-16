@@ -1,9 +1,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
 body {
-  font-family: "Open Sans", sans-serif;
-  /* font-family: 'Source Sans Pro', sans-serif; */
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
   color: #272829;
 }
 
@@ -24,6 +26,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+  /* font-family: 'Source Sans Pro', sans-serif; */
 }
 
 /*--------------------------------------------------------------
@@ -361,7 +364,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -449,12 +452,12 @@ section {
 .about-outer {
   background-color: #2A2D34;
   font-family: "Consola";
-  font-size: 90%;
+  font-size: 100%;
   line-height: 20px;
   overflow-y: auto;
   border-top: 20px solid #e5e5e5;
   height: 400px;
-  width: 500px;
+  width: 97%;
   padding: 30px;
   border-radius: 4px;
   box-shadow: 12px 12px #d2c0da;
@@ -542,6 +545,28 @@ a:hover {
   height: 10px;
   transition: 0.9s;
   background-color: #a78bb2;
+}
+
+.skills-outer {
+  display: grid;
+  grid-template-columns: repeat(10, 100px);
+}
+
+.skill-icon {
+  margin: 10px;
+}
+
+.skill-img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+}
+
+.skills-name {
+  padding-top: 10px;
+  font-size: 12px;
+  color: #45505b;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
