@@ -364,7 +364,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 30px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -471,11 +471,12 @@ section {
   margin-left: 40px;
 }
 
-a {
+.about-link {
   color: inherit;
+  text-decoration: underline;
 }
 
-a:hover {
+.about-link:hover {
   color: #65ff9e
 }
 
@@ -531,20 +532,9 @@ a:hover {
   color: #45505b;
 }
 
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #f2f3f5;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #a78bb2;
+.skills-main {
+  display: flex;
+  justify-content: center;
 }
 
 .skills-outer {
@@ -567,6 +557,30 @@ a:hover {
   font-size: 12px;
   color: #45505b;
   text-align: center;
+}
+
+@media screen and (max-width: 599px) {
+  .skills-outer {
+    grid-template-columns: repeat(3, 100px);
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  .skills-outer {
+    grid-template-columns: repeat(4, 100px);
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 899px) {
+  .skills-outer {
+    grid-template-columns: repeat(5, 100px);
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .skills-outer {
+    grid-template-columns: repeat(8, 100px);
+  }
 }
 
 /*--------------------------------------------------------------
