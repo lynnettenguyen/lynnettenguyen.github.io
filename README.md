@@ -1,1 +1,1 @@
-### Check out my porfolio at [lynnettenguyen.github.io](lynnettenguyen.github.io)!
+### Check out my porfolio at [lynnettenguyen.github.io](https://lynnettenguyen.github.io/)!
