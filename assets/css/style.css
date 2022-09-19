@@ -505,7 +505,7 @@ section {
   }
 }
 
-@media screen and (min-width: 1003px) and (max-width: 1376px) {
+@media screen and (min-width: 1003px) and (max-width: 1399px) {
   .about-outer {
     width: 60%;
     height: 370px;
